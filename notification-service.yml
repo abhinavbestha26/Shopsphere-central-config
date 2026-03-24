@@ -5,6 +5,17 @@ spring:
   application:
     name: notification-service
 
+  datasource:
+    url: jdbc:mysql://localhost:3306/notification_db?createDatabaseIfNotExist=true
+    username: root
+    password: Abhi@11399
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
   rabbitmq:
     host: localhost
     port: 5672
