@@ -34,8 +34,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: capgeminitraining7@gmail.com
-    password: Abhi@11399
+    username: abhi9618589073@gmail.com
+    password: hjik jyci uohe fary
     properties:
       mail:
         smtp:
