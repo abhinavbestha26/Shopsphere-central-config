@@ -18,8 +18,12 @@ spring:
           uri: lb://catalog-service
           predicates:
             - Path=/catalog/**
+          filters:
+            - name: JwtAuthenticationFilter
 
         - id: order-service
           uri: lb://order-service
           predicates:
             - Path=/orders/**
+          filters:
+            - name: JwtAuthenticationFilter
