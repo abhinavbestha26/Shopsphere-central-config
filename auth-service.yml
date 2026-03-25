@@ -15,6 +15,15 @@ spring:
       ddl-auto: update
     show-sql: true
 
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: abhi9618589073@gmail.com
+    password: your_app_password
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+
 springdoc:
   api-docs:
     path: /v3/api-docs
