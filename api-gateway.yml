@@ -7,6 +7,10 @@ spring:
 
   cloud:
     gateway:
+
+      x-forwarded:
+        prefix-enabled: false   
+
       routes:
         - id: auth-service-api-docs
           uri: lb://auth-service
