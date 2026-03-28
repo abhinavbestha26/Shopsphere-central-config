@@ -29,7 +29,7 @@ spring:
           initial-interval: 2000
           multiplier: 2
           max-interval: 10000
-        default-requeue-rejected: false
+          default-requeue-rejected: false
 
   mail:
     host: smtp.gmail.com
